@@ -1,0 +1,1 @@
+This code uses a non-standard way to check for empty arrays.  The `count()` function will return 0 if the array is empty. However, this will also return 0 for other situations such as if the variable isn't even initialized as an array. Therefore it's possible to get a false positive.
