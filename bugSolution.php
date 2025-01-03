@@ -1,0 +1,1 @@
+This improved code uses `empty()` to check if the array is empty.  The `empty()` function returns true if the variable is empty, and false otherwise.  It will only give a true result if the variable is an array and has no elements.  This avoids the false positive that can occur with `count()`.
