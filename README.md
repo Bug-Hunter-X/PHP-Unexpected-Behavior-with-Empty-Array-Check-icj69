@@ -1,0 +1,1 @@
+This repository contains a demonstration of an uncommon PHP bug related to checking for empty arrays using the `count()` function.  The bug arises because `count()` returns 0 for both empty arrays and uninitialized variables. The solution demonstrates a more robust method for checking if an array is truly empty.
